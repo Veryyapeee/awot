@@ -1,6 +1,6 @@
 # AWOT Company - portfolio card 
 
-Simple portfolio site for AWOT.
+Simple portfolio site for AWOT. - made in 2019
 
 ## Technologies
 - HTML
