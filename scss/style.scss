@@ -1,0 +1,2119 @@
+// Zmienne
+
+$purple: rgb(76, 76, 164);
+$montserrat: "Montserrat", sans-serif;
+$oswald: "Oswald", sans-serif;
+$istok: "Istok Web", sans-serif;
+$black: rgb(27, 39, 51);
+$grey: rgb(249, 249, 249);
+
+//Setup
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+body::-webkit-scrollbar {
+  width: 4px;
+}
+body::-webkit-scrollbar-track {
+  background: #ddd;
+}
+body::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 4px;
+}
+
+* {
+  box-sizing: border-box;
+}
+html {
+  overflow-x: hidden;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 48px;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+//Logo
+.logo__con {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0.7em auto;
+  width: 28%;
+  height: 40%;
+}
+
+.awot__logo {
+  width: 100%;
+  height: 100%;
+}
+
+//Menu title
+
+.menu__title {
+  width: 50px;
+  margin: 0 auto;
+  font-size: 0.3em;
+  text-align: center;
+  font-family: $montserrat;
+  color: $purple;
+  font-weight: bold;
+}
+
+//Trojkacik
+
+.triangle {
+  display: block;
+  margin: 4px auto 12px auto;
+}
+
+//Elementy menu
+
+.menu_item {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  font-size: 0.43em;
+  font-family: $oswald;
+  line-height: 31px;
+}
+
+//Przycisk scroll
+
+.scroll_btn {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin: 32px auto 0 auto;
+  background: #fff;
+  font-family: $montserrat;
+  border: 4px solid $purple;
+  padding: 6px 12px;
+  font-weight: bold;
+}
+
+#inter {
+  padding-top: 50px;
+}
+// O NAS
+
+section {
+  background-image: url("../mainimg/awot_bg_mb.png");
+  background-size: auto 100%;
+  height: auto;
+  width: 100%;
+}
+
+//INTRODUCTION
+
+.introduction {
+  width: 100%;
+  text-align: center;
+  font-size: 0.25em;
+  font-family: $montserrat;
+  font-weight: bold;
+  color: #fff;
+  line-height: 14px;
+  padding: 0 16px;
+  margin-top: 25px;
+}
+
+// OSOBY
+
+.people {
+  width: 80%;
+  margin: 42px auto 0 auto;
+  text-align: center;
+}
+
+.person_name {
+  font-family: $montserrat;
+  font-weight: bold;
+  font-size: 0.5em;
+  color: #fff;
+}
+
+.person_job {
+  font-family: $istok;
+  font-weight: bold;
+  color: #fff;
+  font-size: 0.375em;
+}
+
+.person_opis {
+  font-family: $istok;
+  font-size: 0.33em;
+  color: #fff;
+  line-height: 17px;
+  padding-top: 8px;
+}
+
+// RYBKI
+
+.rybki_title {
+  font-family: $montserrat;
+  font-size: 0.36em;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  width: 65%;
+  margin: 50px auto 0 auto;
+}
+
+.rybki {
+  margin-top: 30px;
+  display: grid;
+  grid-row-gap: 10px;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: repeat(5, 100px);
+}
+
+.rybka__css {
+  grid-column: span 2;
+  text-align: center;
+}
+
+.rybka {
+  padding-top: 10px;
+  img {
+    width: auto;
+  }
+}
+
+.rybka__medium {
+  height: 170%;
+}
+
+.rybka__big {
+  height: 110%;
+}
+
+.rybka__small {
+  height: 240%;
+}
+
+.rybka__left {
+  text-align: right;
+  padding-right: 5px;
+}
+
+.rybka__right {
+  text-align: left;
+  padding-left: 5px;
+}
+.ugh {
+  margin-right: -20px;
+}
+
+.rybki__bottom {
+  font-family: $montserrat;
+  font-weight: bold;
+  font-size: 0.35em;
+  color: #fff;
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+}
+.rybki__bottom__bottom {
+  font-size: 0.25em;
+  font-family: $istok;
+  color: #fff;
+  text-align: center;
+  width: 88%;
+  height: 145px;
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+// PORTFOLIO
+article {
+  margin-top: 32px;
+  height: auto;
+  background-image: url("../mainimg/portfolio_bg.webp");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% auto;
+}
+
+.portfolio {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+  display: grid;
+  grid-template-columns: 80%;
+  justify-content: center;
+}
+
+.inox_site {
+  margin: 0 auto;
+  width: 100%;
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.inox_text {
+  padding: 36px 24px;
+  background: #fff;
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: justify;
+  font-size: 0.33em;
+  -webkit-box-shadow: 0px 10px 10px -15px #111;
+  -moz-box-shadow: 0px 10px 10px -15px #111;
+  box-shadow: 0px 10px 10px -15px #111;
+  text-align-last: center;
+
+  height: auto;
+  margin-bottom: 36px;
+  img {
+    width: 70%;
+    height: auto;
+    max-width: 170px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 16px;
+    max-height: 70px;
+  }
+}
+
+.inox_href {
+  display: flex;
+  justify-content: center;
+  font-size: 0.7em;
+  img {
+    width: 7px;
+    height: auto;
+    padding-top: 3px;
+    margin-left: 3px;
+  }
+  span {
+    margin-right: 3px;
+  }
+  a {
+    text-decoration: none;
+    font-weight: 600;
+    color: rgba(15, 55, 255, 255);
+    font-family: $montserrat;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 550px) {
+  .inox_href {
+    img {
+      padding-top: 4px;
+    }
+  }
+}
+// PORTFOLIO PC
+@media only screen and (min-width: 1300px) {
+  .portfolio {
+    width: 75%;
+    padding-bottom: 32px;
+    max-width: 1105.5px;
+    grid-gap: 32px;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: 500px 500px;
+    .site-img {
+      height: 100%;
+      width: auto;
+      overflow: none;
+      -webkit-box-shadow: 0px 10px 10px -15px #111;
+      -moz-box-shadow: 0px 10px 10px -15px #111;
+      box-shadow: 0px 10px 10px -15px #111;
+    }
+  }
+
+  .inox_text {
+    grid-column: span 2;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    padding: 64px;
+    justify-content: left;
+    text-align-last: left;
+    img {
+      display: initial;
+    }
+  }
+
+  .inox_href {
+    font-size: 0.6em;
+    font-weight: normal;
+    position: relative;
+    right: -270px;
+    bottom: -50px;
+    img {
+      width: 7px;
+      padding-top: 3px;
+    }
+  }
+}
+
+// KONTAKT
+footer {
+  background: $grey;
+  width: 100%;
+  height: auto;
+  padding: 42px;
+}
+
+.kontakt__title {
+  font-family: $montserrat;
+  color: $black;
+  font-weight: bold;
+  font-size: 0.3em;
+}
+
+.kontakt_formularz {
+  input[type="text"],
+  input[type="mail"] {
+    width: 100%;
+    background: #fff;
+    border: 2px solid $purple;
+    height: 36px;
+    font-family: $istok;
+    font-style: normal;
+    font-size: 0.3em;
+    color: $black;
+    padding-left: 12px;
+    &:focus {
+      outline: none;
+    }
+  }
+  input::placeholder {
+    font-family: $istok;
+    font-style: italic;
+    font-size: 1em;
+    color: rgba(27, 39, 51, 0.8);
+  }
+  .kontakt_text {
+    font-size: 0.3em;
+    font-family: $istok;
+    color: $black;
+    font-weight: bold;
+    line-height: 15px;
+  }
+
+  .kt {
+    margin-top: 24px;
+  }
+  .kt2 {
+    margin-top: 16px;
+  }
+  textarea {
+    width: 100%;
+    height: 170px;
+    border: 2px solid $purple;
+    resize: none;
+    font-family: $istok;
+    font-style: normal;
+    font-size: 0.3em;
+    color: $black;
+    padding-left: 12px;
+    &:focus {
+      outline: none;
+    }
+  }
+  button {
+    display: flex;
+    font-size: 0.22em;
+    justify-content: center;
+    background: #fff;
+    font-family: $montserrat;
+    border: 4px solid $purple;
+    padding: 6px 12px;
+    font-weight: bold;
+  }
+}
+.rodo_con {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  margin-top: 16px;
+}
+
+.checkbox,
+.checkbox_label {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.checkbox_label {
+  display: block;
+  font-size: 0.27em;
+  font-family: $istok;
+  color: $black;
+  line-height: 16px;
+  font-weight: 500;
+  span {
+    font-weight: bold;
+  }
+}
+
+.button_con {
+  display: grid;
+  grid-template-columns: calc(50% - 10px) calc(50% - 10px);
+  grid-gap: 10px;
+  grid-template-rows: 40px;
+  margin-top: 24px;
+}
+
+.przycisk {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nie_przycisk {
+  height: 100%;
+  width: 100%;
+  font-size: 0.2em;
+  font-family: $istok;
+  font-style: italic;
+  color: #000;
+  display: flex;
+  align-items: center;
+  a {
+    display: flex;
+    align-items: center;
+  }
+}
+
+// CUSTOM CHECKBOX
+
+.styled-checkbox {
+  position: absolute; // take it out of document flow
+  opacity: 0; // hide it
+
+  & + label {
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  // Box.
+  & + label:before {
+    content: "";
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 12px;
+    height: 12px;
+    padding: 2px;
+    background: white;
+    border: 2px solid $purple;
+  }
+
+  // Box hover
+  &:hover + label:before {
+    background: #fff;
+    border: 2px solid $purple;
+  }
+
+  // Box checked
+  &:checked + label:before {
+    border: 2px solid $purple;
+  }
+
+  // Disabled state label.
+  &:disabled + label {
+    background: #fff;
+    border: 2px solid $purple;
+    cursor: pointer;
+  }
+
+  // Disabled box.
+  &:disabled + label:before {
+    border: 2px solid $purple;
+    background: $grey;
+  }
+
+  // Checkmark. Could be replaced with an image
+  &:checked + label:after {
+    content: "";
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    background: $purple;
+    width: 12px;
+    height: 12px;
+  }
+  &:checked + .label:after {
+    top: 5px;
+  }
+  &:active {
+    outline: none;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .styled-checkbox:checked + .label:after {
+    top: 4px;
+  }
+}
+
+//BUTTON FOCUS
+
+button:focus {
+  outline: none;
+}
+
+.pora {
+  display: flex;
+}
+
+//INTERSECTION
+
+.intersection {
+  padding: 0 32px;
+  display: grid;
+  grid-template-columns: 15% 27% 16% 27% 15%;
+  grid-template-rows: 50px;
+}
+
+.start1,
+.portfolio1 {
+  font-family: $montserrat;
+  font-size: 0.25em;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.onas1 {
+  font-family: $montserrat;
+  font-weight: bold;
+  font-size: 0.33em;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dotted_line {
+  display: flex;
+
+  align-items: center;
+  hr {
+    display: block;
+    border-top: 1px dotted #fff;
+    width: 70%;
+  }
+}
+
+.start2,
+.portfolio2 {
+  font-family: $montserrat;
+  font-size: 0.22em;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.onas2 {
+  font-family: $montserrat;
+  font-weight: bold;
+  font-size: 0.25em;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dotted_line2 {
+  display: flex;
+  align-items: center;
+  hr {
+    display: block;
+    border-top: 1px dotted #000;
+    width: 70%;
+  }
+}
+
+// RESPONSIVE
+
+@media only screen and (min-width: 550px) {
+  .introduction {
+    line-height: 20px;
+  }
+  body {
+    font-size: 56px;
+  }
+}
+
+@media only screen and (min-width: 650px) {
+  .rybki {
+    width: 80%;
+    margin: 30px auto 0 auto;
+    display: grid;
+    grid-row-gap: 10px;
+    grid-template-columns: repeat(12, 8.3%);
+    grid-template-rows: repeat(3, 100px);
+  }
+  .rybka {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+  }
+
+  .jquery,
+  .ajax,
+  .css,
+  .js {
+    grid-column: span 3;
+  }
+
+  .mysql,
+  .ai,
+  .ps {
+    grid-column: span 4;
+  }
+
+  .php,
+  .html {
+    grid-column: span 6;
+  }
+
+  //Rybki margin style
+  .php {
+    margin-right: 20px;
+  }
+  .html {
+    margin-left: 20px;
+  }
+
+  .mysql {
+    margin-left: 50px;
+  }
+
+  .ajax {
+    margin-left: 15px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .person_opis {
+    width: 482px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  .intersection,
+  .introduction {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  .rybki {
+    grid-template-rows: repeat(3, 150px);
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  form * {
+    display: block;
+  }
+
+  .footer_con {
+    width: 832px;
+    margin: 0 auto;
+  }
+
+  form {
+    display: grid;
+    grid-column-gap: 30px;
+    margin-top: 15px;
+    grid-row-gap: 10px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(9, auto);
+  }
+  .label1,
+  .kt,
+  textarea,
+  .kt2,
+  .rodo_con,
+  .button_con {
+    grid-column: span 2;
+  }
+
+  .media_checkbox {
+    margin-left: -50px;
+  }
+}
+
+@media only screen and(min-width: 1150px) {
+  .rybki {
+    width: 932px;
+
+    grid-template-rows: repeat(3, 170px);
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  section {
+    background-image: url("../mainimg/awot_bg_pc3.png");
+    background-size: auto 100%;
+  }
+  .people__con {
+    max-width: 1020px;
+    margin: 0 auto;
+    grid-gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 320px);
+  }
+
+  .people {
+    width: 300px;
+  }
+
+  .person_name {
+    font-size: 0.35em;
+  }
+
+  .person_job {
+    font-size: 0.25em;
+  }
+
+  .person_opis {
+    font-size: 0.25em;
+
+    width: 250px;
+  }
+
+  .intersection {
+    font-size: 1.5em;
+  }
+  .introduction {
+    font-size: 0.35em;
+    line-height: 25px;
+  }
+}
+
+@media only screen and (min-width: 1250px) {
+  .rybki {
+    margin-top: 60px;
+    width: 1100px;
+    grid-template-rows: repeat(3, 200px);
+  }
+
+  .js {
+    margin-left: 15px;
+  }
+  .mysql {
+    margin-left: 120px;
+  }
+  .ps {
+    margin-left: 40px;
+  }
+}
+
+//Menu responsive
+.res_menu_con {
+  display: none;
+}
+@media only screen and (min-width: 1200px) {
+  nav,
+  .menu__title,
+  .triangle_hidden,
+  .scroll_btn_hidden {
+    display: none;
+  }
+
+  .logo__con {
+    margin-top: 120px;
+    width: 403px;
+    height: 566.328px;
+  }
+  header {
+    height: 100vh;
+  }
+  #inter {
+    padding-top: 100px;
+  }
+  .scroll_btn_res {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    font-family: $montserrat;
+    border: 4px solid $purple;
+    padding: 6px 12px;
+    font-weight: bold;
+  }
+  .triangle_res {
+    display: block;
+    margin: 4px auto 0 auto;
+  }
+
+  .res_menu_con {
+    display: block;
+    font-size: 0.4em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    grid-template-rows: 40px 40px 50px;
+  }
+
+  .button_res {
+    grid-column-start: 2;
+    grid-row-start: 3;
+    width: 100%;
+    margin: 0 auto;
+    button {
+      margin: 0 auto;
+    }
+  }
+
+  .portfolio_res {
+    grid-column-start: 1;
+    grid-row-start: 2;
+  }
+  .kontakt_res {
+    grid-column-start: 1;
+    grid-row-start: 3;
+  }
+  .mail_res {
+    grid-row-start: 3;
+    grid-column-start: 3;
+    font-family: $istok;
+    font-weight: bold;
+    font-size: 0.5em;
+    text-align: right;
+    padding-right: 50px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+
+  .men_res {
+    //temp, up istok, down montserrat :)
+    font-family: $oswald;
+    line-height: 31px;
+    font-size: 0.9em;
+    padding-left: 84px;
+  }
+  .kontakt_after {
+    position: absolute;
+    &::before {
+      z-index: -1;
+      content: "";
+      display: block;
+      background: $purple;
+      position: absolute;
+      width: 88.7%;
+      height: 60%;
+      top: 12px;
+      left: -8px;
+    }
+  }
+
+  .kontakt_res {
+    span {
+      display: block;
+    }
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 60px 60px 200px;
+    .chcesz_res {
+      font-style: italic;
+      display: flex;
+      align-items: center;
+      font-size: 0.5em;
+      grid-column-start: 3;
+    }
+    .hr_res {
+      display: flex;
+      align-items: center;
+      grid-column-start: 2;
+      hr {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.mail_write {
+  font-family: $montserrat;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.mail {
+  display: flex;
+  float: right;
+  margin-right: 52px;
+  width: 100px;
+  font-weight: bold;
+  align-items: center;
+  font-family: $istok;
+  font-size: 1.4em;
+  img {
+    padding-right: 8px;
+  }
+}
+
+// KWADRATY
+
+.sqr {
+  position: absolute;
+
+  z-index: 1;
+}
+
+.kw1 {
+  animation-name: kw1;
+  animation-duration: 1s;
+  top: 17%;
+  left: 20%;
+}
+
+@keyframes kw1 {
+  from {
+    top: 50%;
+    left: 50%;
+  }
+  to {
+    top: 17%;
+    left: 20%;
+  }
+}
+
+.kw2 {
+  animation-name: kw2;
+  animation-duration: 1s;
+  top: 12%;
+  right: 22%;
+}
+
+@keyframes kw2 {
+  from {
+    top: 50%;
+    right: 50%;
+  }
+  to {
+    top: 12%;
+    right: 22%;
+  }
+}
+
+.kw3 {
+  animation-name: kw3;
+  animation-duration: 1s;
+  top: 22%;
+  right: 16%;
+}
+
+@keyframes kw3 {
+  from {
+    top: 50%;
+    right: 50%;
+  }
+  to {
+    top: 22%;
+    right: 16%;
+  }
+}
+
+.kw4 {
+  animation-name: kw4;
+  animation-duration: 1s;
+  top: 20%;
+  right: 31%;
+}
+
+@keyframes kw4 {
+  from {
+    top: 50%;
+    right: 50%;
+  }
+  to {
+    top: 20%;
+    right: 31%;
+  }
+}
+
+.kw5 {
+  animation-name: kw5;
+  animation-duration: 1s;
+  top: 28%;
+  right: 24%;
+}
+
+@keyframes kw5 {
+  from {
+    top: 50%;
+    right: 50%;
+  }
+  to {
+    top: 28%;
+    right: 24%;
+  }
+}
+
+.kw6 {
+  top: 32%;
+  left: 25%;
+  animation-name: kw6;
+  animation-duration: 1s;
+}
+
+@keyframes kw6 {
+  from {
+    top: 50%;
+    left: 50%;
+  }
+  to {
+    top: 32%;
+    left: 25%;
+  }
+}
+
+.kw7 {
+  animation-duration: 1s;
+  animation-name: kw7;
+  top: 52%;
+  right: 18%;
+}
+
+@keyframes kw7 {
+  from {
+    top: 50%;
+    right: 50%;
+  }
+  to {
+    top: 52%;
+    right: 18%;
+  }
+}
+
+.kw8 {
+  animation-duration: 1s;
+  animation-name: kw8;
+  top: 25%;
+  left: 30%;
+}
+
+@keyframes kw8 {
+  from {
+    top: 50%;
+    left: 50%;
+  }
+  to {
+    top: 25%;
+    left: 30%;
+  }
+}
+
+.kw9 {
+  animation-duration: 1s;
+  animation-name: kw9;
+  top: 68%;
+  right: 23%;
+}
+
+@keyframes kw9 {
+  from {
+    top: 50%;
+    right: 50%;
+  }
+  to {
+    top: 68%;
+    right: 23%;
+  }
+}
+
+.kw10 {
+  animation-duration: 1s;
+  animation-name: kw10;
+  top: 57%;
+  left: 18%;
+}
+
+@keyframes kw10 {
+  from {
+    top: 50%;
+    left: 50%;
+  }
+  to {
+    top: 57%;
+    left: 18%;
+  }
+}
+
+.kw11 {
+  animation-duration: 1s;
+  animation-name: kw11;
+  top: 57%;
+  right: 27%;
+}
+
+@keyframes kw11 {
+  from {
+    top: 50%;
+    right: 50%;
+  }
+  to {
+    top: 57%;
+    right: 27%;
+  }
+}
+
+.kw12 {
+  animation-duration: 1s;
+  animation-name: kw12;
+  top: 39%;
+  right: 17%;
+}
+
+@keyframes kw12 {
+  from {
+    top: 50%;
+    right: 50%;
+  }
+  to {
+    top: 39%;
+    right: 17%;
+  }
+}
+
+.kw13 {
+  animation-duration: 1s;
+  animation-name: kw13;
+  top: 28%;
+  left: 16%;
+}
+
+@keyframes kw13 {
+  from {
+    top: 50%;
+    left: 50%;
+  }
+  to {
+    top: 28%;
+    left: 16%;
+  }
+}
+
+.kw14 {
+  animation-duration: 1s;
+  animation-name: kw14;
+  top: 43%;
+  right: 25%;
+}
+
+@keyframes kw14 {
+  from {
+    top: 50%;
+    right: 50%;
+  }
+  to {
+    top: 43%;
+    right: 25%;
+  }
+}
+
+.kw15 {
+  animation-duration: 1s;
+  animation-name: kw15;
+  top: 45%;
+  left: 24%;
+}
+
+@keyframes kw15 {
+  from {
+    top: 50%;
+    left: 50%;
+  }
+  to {
+    top: 45%;
+    left: 24%;
+  }
+}
+
+.kw16 {
+  animation-duration: 1s;
+  animation-name: kw16;
+  top: 45%;
+  left: 16%;
+}
+
+@keyframes kw16 {
+  from {
+    top: 50%;
+    left: 50%;
+  }
+  to {
+    top: 45%;
+    left: 16%;
+  }
+}
+
+.kw17 {
+  animation-name: kw17;
+  animation-duration: 1s;
+  top: 14%;
+  left: 35%;
+}
+
+@keyframes kw17 {
+  from {
+    top: 50%;
+    left: 50%;
+  }
+  to {
+    top: 14%;
+    left: 35%;
+  }
+}
+
+.kw18 {
+  animation-name: kw18;
+  animation-duration: 1s;
+  top: 65%;
+  left: 26%;
+}
+
+@keyframes kw18 {
+  from {
+    top: 50%;
+    left: 50%;
+  }
+  to {
+    top: 65%;
+    left: 26%;
+  }
+}
+
+// KWADRACIKI 1200px
+@media only screen and (max-width: 1200px) {
+  .kw1 {
+    animation-name: kw1;
+    animation-duration: 1s;
+    top: 10%;
+    left: 17%;
+  }
+
+  @keyframes kw1 {
+    from {
+      top: 30%;
+      left: 50%;
+    }
+    to {
+      top: 10%;
+      left: 17%;
+    }
+  }
+
+  .kw2 {
+    animation-name: kw2;
+    animation-duration: 1s;
+    top: 5%;
+    right: 19%;
+  }
+
+  @keyframes kw2 {
+    from {
+      top: 30%;
+      right: 50%;
+    }
+    to {
+      top: 5%;
+      right: 19%;
+    }
+  }
+
+  .kw3 {
+    animation-name: kw3;
+    animation-duration: 1s;
+    top: 15%;
+    right: 13%;
+  }
+
+  @keyframes kw3 {
+    from {
+      top: 30%;
+      right: 50%;
+    }
+    to {
+      top: 15%;
+      right: 13%;
+    }
+  }
+
+  .kw4 {
+    animation-name: kw4;
+    animation-duration: 1s;
+    top: 13%;
+    right: 28%;
+  }
+
+  @keyframes kw4 {
+    from {
+      top: 30%;
+      right: 50%;
+    }
+    to {
+      top: 13%;
+      right: 28%;
+    }
+  }
+
+  .kw5 {
+    animation-name: kw5;
+    animation-duration: 1s;
+    top: 21%;
+    right: 21%;
+  }
+
+  @keyframes kw5 {
+    from {
+      top: 30%;
+      right: 50%;
+    }
+    to {
+      top: 21%;
+      right: 21%;
+    }
+  }
+
+  .kw6 {
+    top: 25%;
+    left: 22%;
+    animation-name: kw6;
+    animation-duration: 1s;
+  }
+
+  @keyframes kw6 {
+    from {
+      top: 30%;
+      left: 50%;
+    }
+    to {
+      top: 25%;
+      left: 22%;
+    }
+  }
+
+  .kw7 {
+    animation-duration: 1s;
+    animation-name: kw7;
+    top: 45%;
+    right: 15%;
+  }
+
+  @keyframes kw7 {
+    from {
+      top: 30%;
+      right: 50%;
+    }
+    to {
+      top: 45%;
+      right: 15%;
+    }
+  }
+
+  .kw8 {
+    animation-duration: 1s;
+    animation-name: kw8;
+    top: 18%;
+    left: 27%;
+  }
+
+  @keyframes kw8 {
+    from {
+      top: 30%;
+      left: 50%;
+    }
+    to {
+      top: 18%;
+      left: 27%;
+    }
+  }
+
+  .kw9 {
+    animation-duration: 1s;
+    animation-name: kw9;
+    top: 61%;
+    right: 20%;
+  }
+
+  @keyframes kw9 {
+    from {
+      top: 30%;
+      right: 50%;
+    }
+    to {
+      top: 61%;
+      right: 20%;
+    }
+  }
+
+  .kw10 {
+    animation-duration: 1s;
+    animation-name: kw10;
+    top: 50%;
+    left: 15%;
+  }
+
+  @keyframes kw10 {
+    from {
+      top: 30%;
+      left: 50%;
+    }
+    to {
+      top: 50%;
+      left: 15%;
+    }
+  }
+
+  .kw11 {
+    animation-duration: 1s;
+    animation-name: kw11;
+    top: 50%;
+    right: 24%;
+  }
+
+  @keyframes kw11 {
+    from {
+      top: 30%;
+      right: 50%;
+    }
+    to {
+      top: 50%;
+      right: 24%;
+    }
+  }
+
+  .kw12 {
+    animation-duration: 1s;
+    animation-name: kw12;
+    top: 32%;
+    right: 14%;
+  }
+
+  @keyframes kw12 {
+    from {
+      top: 30%;
+      right: 50%;
+    }
+    to {
+      top: 32%;
+      right: 14%;
+    }
+  }
+
+  .kw13 {
+    animation-duration: 1s;
+    animation-name: kw13;
+    top: 21%;
+    left: 13%;
+  }
+
+  @keyframes kw13 {
+    from {
+      top: 30%;
+      left: 50%;
+    }
+    to {
+      top: 21%;
+      left: 13%;
+    }
+  }
+
+  .kw14 {
+    animation-duration: 1s;
+    animation-name: kw14;
+    top: 36%;
+    right: 22%;
+  }
+
+  @keyframes kw14 {
+    from {
+      top: 30%;
+      right: 50%;
+    }
+    to {
+      top: 36%;
+      right: 22%;
+    }
+  }
+
+  .kw15 {
+    animation-duration: 1s;
+    animation-name: kw15;
+    top: 38%;
+    left: 21%;
+  }
+
+  @keyframes kw15 {
+    from {
+      top: 30%;
+      left: 50%;
+    }
+    to {
+      top: 38%;
+      left: 21%;
+    }
+  }
+
+  .kw16 {
+    animation-duration: 1s;
+    animation-name: kw16;
+    top: 38%;
+    left: 13%;
+  }
+
+  @keyframes kw16 {
+    from {
+      top: 30%;
+      left: 50%;
+    }
+    to {
+      top: 38%;
+      left: 13%;
+    }
+  }
+
+  .kw17 {
+    animation-name: kw17;
+    animation-duration: 1s;
+    top: 6%;
+    left: 32%;
+  }
+
+  @keyframes kw17 {
+    from {
+      top: 30%;
+      left: 50%;
+    }
+    to {
+      top: 6%;
+      left: 32%;
+    }
+  }
+
+  .kw18 {
+    animation-name: kw18;
+    animation-duration: 1s;
+    top: 58%;
+    left: 23%;
+  }
+
+  @keyframes kw18 {
+    from {
+      top: 30%;
+      left: 50%;
+    }
+    to {
+      top: 58%;
+      left: 23%;
+    }
+  }
+}
+
+// KWADRACIKI 800px
+@media only screen and (max-width: 800px) {
+  .kw1 {
+    animation-name: kw1;
+    animation-duration: 1s;
+    top: 6%;
+    left: 14%;
+    width: 0.4em;
+    height: auto;
+  }
+
+  @keyframes kw1 {
+    from {
+      top: 30%;
+      left: 50%;
+    }
+    to {
+      top: 6%;
+      left: 14%;
+    }
+  }
+
+  .kw2 {
+    animation-name: kw2;
+    animation-duration: 1s;
+    top: 2%;
+    right: 16%;
+    width: 0.5em;
+    height: auto;
+  }
+
+  @keyframes kw2 {
+    from {
+      top: 30%;
+      right: 50%;
+    }
+    to {
+      top: 2%;
+      right: 16%;
+    }
+  }
+
+  .kw3 {
+    animation-name: kw3;
+    animation-duration: 1s;
+    top: 7%;
+    right: 10%;
+    width: 0.52em;
+    height: auto;
+  }
+
+  @keyframes kw3 {
+    from {
+      top: 30%;
+      right: 50%;
+    }
+    to {
+      top: 7%;
+      right: 10%;
+    }
+  }
+
+  .kw4 {
+    animation-name: kw4;
+    animation-duration: 1s;
+    top: 8%;
+    right: 28%;
+    width: 0.38em;
+    height: auto;
+  }
+
+  @keyframes kw4 {
+    from {
+      top: 30%;
+      right: 50%;
+    }
+    to {
+      top: 8%;
+      right: 28%;
+    }
+  }
+
+  .kw5 {
+    animation-name: kw5;
+    animation-duration: 1s;
+    top: 12%;
+    right: 21%;
+    width: 0.53em;
+    height: auto;
+  }
+
+  @keyframes kw5 {
+    from {
+      top: 30%;
+      right: 50%;
+    }
+    to {
+      top: 12%;
+      right: 21%;
+    }
+  }
+
+  .kw6 {
+    top: 15%;
+    left: 22%;
+    animation-name: kw6;
+    animation-duration: 1s;
+    width: 0.4em;
+    height: auto;
+  }
+
+  @keyframes kw6 {
+    from {
+      top: 30%;
+      left: 50%;
+    }
+    to {
+      top: 15%;
+      left: 22%;
+    }
+  }
+
+  .kw7 {
+    animation-duration: 1s;
+    animation-name: kw7;
+    top: 24%;
+    right: 12%;
+    width: 0.48em;
+    height: auto;
+  }
+
+  @keyframes kw7 {
+    from {
+      top: 30%;
+      right: 50%;
+    }
+    to {
+      top: 24%;
+      right: 12%;
+    }
+  }
+
+  .kw8 {
+    animation-duration: 1s;
+    animation-name: kw8;
+    top: 10%;
+    left: 27%;
+    width: 0.33em;
+    height: auto;
+  }
+
+  @keyframes kw8 {
+    from {
+      top: 30%;
+      left: 50%;
+    }
+    to {
+      top: 10%;
+      left: 27%;
+    }
+  }
+
+  .kw9 {
+    animation-duration: 1s;
+    animation-name: kw9;
+    top: 30%;
+    right: 17%;
+    width: 0.25em;
+    height: auto;
+  }
+
+  @keyframes kw9 {
+    from {
+      top: 30%;
+      right: 50%;
+    }
+    to {
+      top: 30%;
+      right: 17%;
+    }
+  }
+
+  .kw10 {
+    animation-duration: 1s;
+    animation-name: kw10;
+    top: 25%;
+    left: 12%;
+    width: 0.4em;
+    height: auto;
+  }
+
+  @keyframes kw10 {
+    from {
+      top: 30%;
+      left: 50%;
+    }
+    to {
+      top: 25%;
+      left: 12%;
+    }
+  }
+
+  .kw11 {
+    animation-duration: 1s;
+    animation-name: kw11;
+    top: 27%;
+    right: 24%;
+    width: 0.39em;
+    height: auto;
+  }
+
+  @keyframes kw11 {
+    from {
+      top: 30%;
+      right: 50%;
+    }
+    to {
+      top: 27%;
+      right: 24%;
+    }
+  }
+
+  .kw12 {
+    animation-duration: 1s;
+    animation-name: kw12;
+    top: 16%;
+    right: 11%;
+    width: 0.3em;
+    height: auto;
+  }
+
+  @keyframes kw12 {
+    from {
+      top: 30%;
+      right: 50%;
+    }
+    to {
+      top: 16%;
+      right: 11%;
+    }
+  }
+
+  .kw13 {
+    animation-duration: 1s;
+    animation-name: kw13;
+    top: 11%;
+    left: 10%;
+    width: 0.32em;
+    height: auto;
+  }
+
+  @keyframes kw13 {
+    from {
+      top: 30%;
+      left: 50%;
+    }
+    to {
+      top: 11%;
+      left: 10%;
+    }
+  }
+
+  .kw14 {
+    animation-duration: 1s;
+    animation-name: kw14;
+    top: 19%;
+    right: 22%;
+    width: 0.53em;
+    height: auto;
+  }
+
+  @keyframes kw14 {
+    from {
+      top: 30%;
+      right: 50%;
+    }
+    to {
+      top: 19%;
+      right: 22%;
+    }
+  }
+
+  .kw15 {
+    animation-duration: 1s;
+    animation-name: kw15;
+    top: 21%;
+    left: 21%;
+    width: 0.31em;
+    height: auto;
+  }
+
+  @keyframes kw15 {
+    from {
+      top: 30%;
+      left: 50%;
+    }
+    to {
+      top: 21%;
+      left: 21%;
+    }
+  }
+
+  .kw16 {
+    animation-duration: 1s;
+    animation-name: kw16;
+    top: 20%;
+    left: 10%;
+    width: 0.27em;
+    height: auto;
+  }
+
+  @keyframes kw16 {
+    from {
+      top: 30%;
+      left: 50%;
+    }
+    to {
+      top: 20%;
+      left: 10%;
+    }
+  }
+
+  .kw17 {
+    animation-name: kw17;
+    animation-duration: 1s;
+    top: 3%;
+    left: 32%;
+    width: 0.29em;
+    height: auto;
+  }
+
+  @keyframes kw17 {
+    from {
+      top: 30%;
+      left: 50%;
+    }
+    to {
+      top: 3%;
+      left: 32%;
+    }
+  }
+
+  .kw18 {
+    animation-name: kw18;
+    animation-duration: 1s;
+    top: 29%;
+    left: 23%;
+    width: 0.3em;
+    height: auto;
+  }
+
+  @keyframes kw18 {
+    from {
+      top: 30%;
+      left: 50%;
+    }
+    to {
+      top: 29%;
+      left: 23%;
+    }
+  }
+}
+
+// ANIMATIONS + hovers
+.hr_res {
+  animation: k_hr 1.5s;
+}
+
+@keyframes k_hr {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.mail_res:hover {
+  cursor: pointer;
+}
+
+[data-aos="lin-am"] {
+  opacity: 0;
+  transform: scale(0);
+  &.aos-animate {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.menu_item:hover {
+  cursor: pointer;
+}
+
+.men_res:hover {
+  cursor: pointer;
+}
+
+.scroll_btn_hidden:hover,
+.scroll_btn_res:hover,
+.int:hover,
+.nie_przycisk:hover {
+  cursor: pointer;
+}
+
+.media_checkbox {
+  label:hover {
+    cursor: pointer;
+  }
+}
+
+.przycisk {
+  button:hover {
+    cursor: pointer;
+  }
+}
+
+.link {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.hvr-sweep-to-left:hover .link:hover {
+  color: white;
+}
+
+.sqr {
+  &:hover {
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+  }
+}
+
+@-webkit-keyframes swing {
+  15% {
+    -webkit-transform: translateX(5px);
+    transform: translateX(5px);
+  }
+  30% {
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
+  }
+  50% {
+    -webkit-transform: translateX(3px);
+    transform: translateX(3px);
+  }
+  65% {
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+  }
+  80% {
+    -webkit-transform: translateX(2px);
+    transform: translateX(2px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes swing {
+  15% {
+    -webkit-transform: translateX(5px);
+    transform: translateX(5px);
+  }
+  30% {
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
+  }
+  50% {
+    -webkit-transform: translateX(3px);
+    transform: translateX(3px);
+  }
+  65% {
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+  }
+  80% {
+    -webkit-transform: translateX(2px);
+    transform: translateX(2px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}

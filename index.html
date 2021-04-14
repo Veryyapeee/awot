@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/hover.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.0.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+
+    <!-- FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Istok+Web:400,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>AWOT - aberrational way of thinking</title>
+    <meta name="theme-color" content="rgb(76, 76, 164)" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assetimg/favicon.png"
+    />
+    <script src="js/scroll.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="logo__con">
+        <img src="mainimg/logo.png" alt="" class="awot__logo" />
+
+        <img src="sqr/kw1.png " alt="" class="kw1 sqr " />
+        <img src="sqr/kw2.png" alt="" class="kw2 sqr " />
+        <img src="sqr/kw3.png" alt="" class="kw3 sqr" />
+        <img src="sqr/kw4.png" alt="" class="kw4 sqr" />
+        <img src="sqr/kw5.png" alt="" class="kw5 sqr" />
+        <img src="sqr/kw6.png" alt="" class="kw6 sqr" />
+        <img src="sqr/kw7.png" alt="" class="kw7 sqr" />
+        <img src="sqr/kw8.png" alt="" class="kw8 sqr" />
+        <img src="sqr/kw9.png" alt="" class="kw9 sqr" />
+        <img src="sqr/kw10.png" alt="" class="kw10 sqr" />
+        <img src="sqr/kw11.png" alt="" class="kw11 sqr" />
+        <img src="sqr/kw12.png" alt="" class="kw12 sqr" />
+        <img src="sqr/kw13.png" alt="" class="kw13 sqr" />
+        <img src="sqr/kw14.png" alt="" class="kw14 sqr" />
+        <img src="sqr/kw15.png" alt="" class="kw15 sqr" />
+        <img src="sqr/kw16.png" alt="" class="kw16 sqr" />
+        <img src="sqr/kw17.png" alt="" class="kw17 sqr" />
+        <img src="sqr/kw18.png" alt="" class="kw18 sqr" />
+      </div>
+
+      <div class="menu__title">
+        Menu
+      </div>
+
+      <img
+        src="assetimg/triangle.png"
+        alt=""
+        class="triangle triangle_hidden"
+      />
+
+      <nav>
+        <div class="menu_item menu_onas">O nas</div>
+        <div class="menu_item menu_portfolio">Portfolio</div>
+        <div class="menu_item menu_kontakt">Kontakt</div>
+      </nav>
+
+      <button class="scroll_btn scroll_btn_hidden" id="scroll_btn_hidden">
+        Hej, to się przewija!
+      </button>
+      <img
+        src="assetimg/triangle.png"
+        alt=""
+        class="triangle triangle_hidden hvr-hang"
+      />
+
+      <!--After 1200px menu html-->
+      <div class="res_menu_con">
+        <div class="onas_res men_res">O nas</div>
+        <div class="portfolio_res men_res">Portfolio</div>
+        <div class="kontakt_res men_res">
+          <span class="kontakt_after"> Kontakt</span>
+          <div class="hr_res">
+            <hr />
+          </div>
+          <div class="chcesz_res">
+            Chcesz więcej informacji? Wypełnij formularz!
+          </div>
+        </div>
+        <div class="button_res">
+          <button class="scroll_btn_res">
+            Hej, to się przewija!
+          </button>
+          <img
+            src="assetimg/triangle.png"
+            alt=""
+            class="triangle_res hvr-hang"
+          />
+        </div>
+
+        <div class="mail_res hvr-sweep-to-left">
+          <a class="link" href="mailto:kontakt@awot.pl">
+            <div class="mail_write">Napisz do nas</div>
+            <div class="mail">
+              <img src="assetimg/mial.png" alt="" id="imgwh" /> kontakt@awot.pl
+            </div>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <script>
+      $(function() {
+        $(".link").hover(
+          function() {
+            $("#imgwh").css("filter", "brightness(800%)");
+          },
+          function() {
+            $("#imgwh").css("filter", "brightness(1)");
+          }
+        );
+      });
+    </script>
+
+    <section>
+      <div class="intersection intersection1" id="inter">
+        <div
+          class="start1 int"
+          data-aos="fade-down"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="1500"
+        >
+          Start
+        </div>
+        <div class="dotted_line">
+          <hr data-aos-duration="2000" data-aos="lin-am" />
+        </div>
+        <div class="onas1 int" data-aos="fade-down">
+          O nas
+        </div>
+        <div class="dotted_line">
+          <hr data-aos-duration="2000" data-aos="lin-am" />
+        </div>
+        <div
+          class="portfolio1 int"
+          data-aos="fade-down"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="1500"
+        >
+          Portfolio
+        </div>
+      </div>
+      <div class="introduction" data-aos="fade-down" data-aos-duration="1000">
+        Jesteśmy niezależnym kreatywnym zespołem wykorzystującym niespotykane
+        dotąd rozwiązania pomagające Twoim projektom być unikalne.
+      </div>
+
+      <div class="people__con">
+        <div class="people" data-aos="fade-down" data-aos-duration="1300">
+          <img src="mainimg/pr1.png" />
+          <div class="person_name">
+            Jakub Muryn
+          </div>
+          <div class="person_job">
+            Grafik
+          </div>
+          <div class="person_opis">
+            Osoba szukająca inspiracji w swojej głowie. Nada Twojemu projektowi
+            wdzięcznego wyglądu w połączeniu z funkcjonalnością. Jak przepiękny
+            kolorowy kwiatek zasadzony obok szczypiorku. 🌸 🌿
+          </div>
+        </div>
+        <div class="people" data-aos="fade-down" data-aos-duration="1300">
+          <img src="mainimg/pr2.png" />
+          <div class="person_name">
+            Szymon Żerebiło
+          </div>
+          <div class="person_job">
+            Specjalista SEO
+          </div>
+          <div class="person_opis">
+            Do piękności potrzeba jedynie tego, żeby cały świat mógł Cię
+            zobaczyć! Szymon ustawi drogowskazy prowadzące do Twojej strony w
+            każdym miejscu, aby żadna wyszukiwarka nie pominęła najlepszej
+            oferty w Internecie! Tak jak wóz strażacki pędzący na wezwanie,
+            chociażby do małego kotka. 😿 🚒
+          </div>
+        </div>
+        <div class="people" data-aos="fade-down" data-aos-duration="1300">
+          <img src="mainimg/pr3.png" />
+          <div class="person_name">
+            Cyprian Zamiara
+          </div>
+          <div class="person_job">
+            Web Developer
+          </div>
+          <div class="person_opis">
+            Mechanik, który połączy wszystkie przewody tak, aby twój motor mógł
+            pędzić po fali zer i jedynek z najwyższą dozwoloną prędkością. To
+            on, który postawi wszystko do pionu, chociażby się waliło i paliło,
+            będzie przekładał Twój pomysł na dzieło rzeczywiste. 👨‍🔧 🧰
+          </div>
+        </div>
+      </div>
+
+      <div class="rybki_title" data-aos="fade-down" data-aos-duration="1000">
+        W czym czujemy się jak ryba w wodzie?
+      </div>
+
+      <div class="rybki">
+        <div class="rybka rybka__left jquery">
+          <img src="rybki/jquery.png" alt="" class="rybka__small ugh" />
+        </div>
+        <div class="rybka rybka__right ajax">
+          <img src="rybki/ajax.png" alt="" class="rybka__small" />
+        </div>
+        <div class="rybka rybka__css css">
+          <img src="rybki/css.png" alt="" class="rybka__medium" />
+        </div>
+        <div class="rybka rybka__left js">
+          <img src="rybki/js.png" alt="" class="rybka__medium " />
+        </div>
+        <div class="rybka rybka__right mysql">
+          <img src="rybki/mysql.png" alt="" class="rybka__medium" />
+        </div>
+        <div class="rybka rybka__left ai">
+          <img src="rybki/ai.png" alt="" class="rybka__medium" />
+        </div>
+        <div class="rybka rybka__right ps">
+          <img src="rybki/ps.png" alt="" class="rybka__medium" />
+        </div>
+        <div class="rybka rybka__left php">
+          <img src="rybki/php7.png" alt="" class="rybka__big " />
+        </div>
+        <div class="rybka rybka__right html">
+          <img src="rybki/html.png" alt="" class="rybka__big" />
+        </div>
+      </div>
+
+      <div class="rybki__bottom" data-aos="fade-up" data-aos-duration="700">
+        A ten ocean jest bez dna...
+      </div>
+      <div
+        class="rybki__bottom__bottom"
+        data-aos="fade-up"
+        data-aos-duration="700"
+      >
+        w nim nasze ambicje do poszerzania umiejętności <br />
+        specjalnie dla Twojego zadowolenia.
+      </div>
+    </section>
+
+    <article>
+      <div class="intersection" id="intersection2">
+        <div
+          class="start2 int"
+          data-aos="fade-down"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="1500"
+        >
+          O nas
+        </div>
+        <div class="dotted_line2">
+          <hr data-aos-duration="2000" data-aos="lin-am" />
+        </div>
+        <div class="onas2 int" data-aos="fade-down">Portfolio</div>
+        <div class="dotted_line2">
+          <hr data-aos-duration="2000" data-aos="lin-am" />
+        </div>
+        <div
+          class="portfolio2 int"
+          data-aos="fade-down"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="1500"
+        >
+          Kontakt
+        </div>
+      </div>
+
+      <div class="portfolio">
+        <div class="inox_site" data-aos="fade-right" data-aos-duration="1800">
+          <img src="assetimg/inoxbud.png" class="site-img" alt="" />
+        </div>
+        <div class="inox_text" data-aos="fade-left" data-aos-duration="1800">
+          <img src="assetimg/inoxbud-logo.svg" alt="" />
+
+          <p>
+            <strong>
+              Hasło "Robimy schody i balustrady jak dla siebie" świadczy o
+              klasie usług oferowanych przez naszego klienta.
+            </strong>
+          </p>
+
+          <p>
+            Specjalnie dla nich stworzyliśmy stronę, na której będzie możliwość
+            dodawania zdjęć do galerii przez autorski panel z logowaniem o
+            szerokim zakresie rozbudowy.
+          </p>
+
+          <p>
+            Prócz tego zostałą wyszczególniona mapa dojazdowa do zakładu
+            świadczona przez Google Maps. Wszystko to działa bardzo szybko,
+            uruchamia się nawet na starszych urządzeniach przenośnych!
+          </p>
+
+          <div class="inox_href">
+            <a href="http://inoxbud.pl/" target="_blank">
+              <span>Przejdź do strony</span>
+              <img src="assetimg/right.svg" alt=""
+            /></a>
+          </div>
+        </div>
+
+        <div class="inox_site" data-aos="fade-right" data-aos-duration="1800">
+          <img src="assetimg/portsite.png" class="site-img" alt="" />
+        </div>
+        <div class="inox_text" data-aos="fade-left" data-aos-duration="1800">
+          <img src="assetimg/portlog.png" alt="" />
+
+          <p>
+            <strong>
+              Strona największego turnieju gier komputerowych w powiecie
+              wałeckim potrzebowała solidnego wykończenia w połączeniu z
+              interaktywnym panelem rejestracji drużyn i zawodników.
+            </strong>
+          </p>
+
+          <p>
+            Na szczególną uwagę zasługuje funkcjonalność połączona z
+            wykorzystaniem jak najmniejszej przestrzeni, aby czytelnik mógł
+            dostrzec to, co chce.
+          </p>
+
+          <p>
+            Projekt został wykonany w celach szkoleniowych, aby przestestować
+            funkcjonalność i elastyczność technologii.
+          </p>
+
+          <div class="inox_href">
+            <a href="https://rolnikgamearena.pl" target="_blank">
+              <span>Przejdź do strony</span>
+              <img src="assetimg/right.svg" alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <footer>
+      <div class="footer_con">
+        <div class="kontakt__title">
+          Skontaktuj się z nami!
+        </div>
+        <div class="kontakt_formularz">
+          <form action="php/send.php" method="POST">
+            <input type="text" placeholder="Imię i nazwisko" name="imie" />
+            <input
+              type="text"
+              placeholder="Telefon (opcjonalnie)"
+              name="telefon"
+            />
+            <input
+              type="checkbox"
+              id="chk1"
+              class="styled-checkbox"
+              name="firmachk"
+            />
+            <label for="chk1" class="kontakt_text label1">
+              Przedstawiciel firmy</label
+            >
+            <input
+              type="text"
+              placeholder="Nazwa firmy (opcjonalnie)"
+              name="firma"
+            />
+            <input type="mail" placeholder="Adres e-mail" name="mail" />
+            <div class="kontakt_text kt">
+              Twoja wiadomość
+            </div>
+            <textarea name="msg" id="" cols="30" rows="10"></textarea>
+            <div class="kontakt_text kt2">
+              Bardzo cenimy Twój czas, ale została nam jeszcze jedna formalność
+            </div>
+            <div class="rodo_con">
+              <div class="checkbox">
+                <input
+                  type="checkbox"
+                  id="chk2"
+                  class="styled-checkbox"
+                  name="agree"
+                />
+                <label for="chk2" class="label"></label>
+              </div>
+              <div class="checkbox_label media_checkbox ">
+                <label for="chk2">
+                  Wyrażam zgodę na przetwarzanie moich danych osobowych
+                  obejmujących imię, nazwisko, telefon (opcjonalnie), nazwę
+                  firmy (opcjonalnie), adres e-mail, adres IP oraz wiadomość
+                  mogącą zawierać dodatkowe dane.
+                  <br /><br />
+                  Podane dane zostaną wykorzystane jedynie do kontaktu
+                  zwrotnego. W każdym momencie zgoda może zostać cofnięta przez
+                  wysłanie wiadomości e-mail na adres<span>
+                    kontakt@awot.pl
+                  </span>
+                </label>
+              </div>
+            </div>
+
+            <div class="button_con">
+              <div class="przycisk">
+                <button type="submit" name="wyslij">Wyślij</button>
+              </div>
+
+              <div class="nie_przycisk">
+                <a class="link" href="mailto:kontakt@awot.pl">
+                  Wolę tradycyjną metodę
+                </a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
